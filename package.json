@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/peekgrid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Peek digests and grid fingerprints for local integrity checks.",
+  "bin": {
+    "peekgrid": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/peekgrid.git"
+  },
+  "homepage": "https://theworker02.github.io/peekgrid/",
+  "keywords": [
+    "peek",
+    "grid",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
